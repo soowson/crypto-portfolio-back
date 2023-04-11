@@ -13,6 +13,7 @@ import { config } from './config/config';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
+      type: "mysql",
       host: config.dbHost,
       port: config.dbPort,
       username: config.dbUsername,
