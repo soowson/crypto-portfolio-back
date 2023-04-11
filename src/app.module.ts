@@ -8,16 +8,17 @@ import { PortfolioModule } from './portfolio/portfolio.module';
 import { AuthModule } from './auth/auth.module';
 import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
 import { APP_GUARD } from '@nestjs/core';
+import { config } from "./config/config";
 
 @Module({
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
-      port: 3306,
-      username: 'root',
-      password: '',
-      database: 'sprawdzam',
+      host: config.dbHost,
+      port: config.dbPort,
+      username: config.dbUsername,
+      password: config.dbPassword,
+      database: config.dbDatabase,
       entities: ['dist/**/**.entity{.ts,.js}'],
       bigNumberStrings: false,
       logging: true,
