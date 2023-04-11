@@ -8,7 +8,7 @@ The main goal of this project is to allow you to create your own portfolio of cr
 - TypeScript: version 4.7
 - Nest: version: 9
 - MySQL: version 2.18
-- TypeORM: version 8
+- TypeORM: version 0.3
 - RxJS: version 7
 - passport: version 0.6
 - passport-jwt: version 4.0
@@ -29,5 +29,6 @@ The main goal of this project is to allow you to create your own portfolio of cr
 4) complete the database configuration in the file config.example.ts
 5) start the app: right-click on the package.json file => show npm scripts => start
 
-
+## Contact
+email: jakubsowinski94@gmail.com
 
