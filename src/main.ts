@@ -4,7 +4,7 @@ import { GlobalExceptionFilter } from './filters/global-exception.filter';
 import { ValidationPipe } from '@nestjs/common';
 import * as cookieParser from 'cookie-parser';
 import * as cors from 'cors';
-import * as process from "process";
+import * as process from 'process';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
