@@ -26,6 +26,7 @@ The main goal of this project is to allow you to create your own portfolio of cr
 ## Setup
 1) cd into project folder 
 2) npm install
+3) create database 'crypto'
 4) complete the database configuration in the file config.example.ts
 5) start the app: right-click on the package.json file => show npm scripts => start
 
