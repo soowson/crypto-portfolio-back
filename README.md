@@ -23,6 +23,14 @@ The main goal of this project is to allow you to create your own portfolio of cr
 - editing a transaction 
 - deleting a transaction
 
+## Future application development
+- addition of history of completed transactions
+- addition of portfolio status in the form of a chart
+- addition of description and historical charts of cryptocurrencies
+
+## What doesn't work
+- UnauthorizedException is deliver as Internal Server Error (I have not encountered this problem in Nest v7)
+
 ## Setup
 1) cd into project folder 
 2) npm install
